@@ -1,0 +1,19 @@
+.skills {
+  background: #f3f3f3;
+}
+
+.skills table tr td {
+  padding: 20px;
+  text-align: left;
+}
+
+@media (max-width: 400px) {
+  .skills table tr td {
+	  padding: 5px;
+	}
+}
+
+.skills .skill-heading {
+	min-width: 35%;
+  text-transform: uppercase;
+}

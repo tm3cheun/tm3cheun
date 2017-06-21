@@ -1,0 +1,13 @@
+.contact {
+	width: 100%;
+	background: #ffffff;
+}
+
+.contact .fa {
+	font-size: 72px;
+}
+
+.contact .text {
+	margin: 50px auto;
+  text-align: center;
+}

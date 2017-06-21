@@ -1,0 +1,83 @@
+.interests {
+  width: 100%;
+  background: #ffffff;
+}
+
+.interests .interest {
+  display: grid;
+  min-height: 300px;
+}
+
+.interests .baking {
+  background: url(../images/baking2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.interests .blocks {
+  padding: 0 150px;
+}
+
+@media (max-width:768px) {
+  .interests .blocks {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width:768px) {
+  .interests .interest {
+    min-height: 200px;
+  }
+}
+
+.interests .interest:hover { 
+  opacity: 0.5;
+}
+
+.interests .photography {
+  background: url(../images/bg2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.interests .piano {
+  background: url(../images/piano3.PNG);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.interests .section {
+  text-align: center;
+}
+
+.interests span {
+  background: #ffffff;
+  margin: auto;
+  padding: 10px;
+}
+
+@media (min-width: 748px) and (max-width: 1000px), (max-width: 500px)  {
+  .interests span {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+  }
+}
+
+.interests .travelling {
+  background: url(../images/travelling.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

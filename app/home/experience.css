@@ -1,0 +1,72 @@
+.cd-container {
+  text-align: left;
+}
+
+.cd-service, .cd-service-end {
+  position: relative;
+  z-index: 2;
+  min-height: 50px;
+  margin-left: 56px;
+  padding: 0.25em 1em 4em;
+}
+
+.cd-service-end {
+  padding: 0;
+}
+
+.cd-service-divider {
+  width: 30%;
+}
+
+.cd-service::before, .cd-service::after, .cd-service-end::before {
+  content: '';
+  position: absolute;
+  width: 56px;
+  right: 100%;
+  z-index: 2;
+}
+
+.cd-service::before {
+  top: 0;
+  height: 52px;
+  background-image: url("../images/pattern-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.cd-service::after {
+  top: 50px;
+  bottom: 0;
+  background-image: url("../images/pattern-line.svg");
+  background-repeat: repeat-y;
+}
+
+.cd-service-end::before {
+  top: 0;
+  height: 50px;
+  background-image: url("../images/pattern-end.svg");
+  background-repeat: no-repeat;
+}
+
+.experience {
+  background: #f3f3f3;
+}
+
+.experience .position {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.experience .bullets {
+  list-style-type: circle;
+}
+
+@media (min-width: 800px) {
+  .experience .bullets {
+    color: #999;
+  }
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,19 @@
+.about {
+  background: url(../images/convocation.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about .bg {
+  background: url(../images/convocation.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.about .text {
+  text-align: center;
+}

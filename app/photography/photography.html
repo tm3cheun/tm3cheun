@@ -1,0 +1,9 @@
+<div id="bg">
+  <img ng-src="{{gallery[pageNumber].image}}" alt="">
+</div>
+
+<ul class="pagination">
+  <li ng-class="{ 'disabled': photo.index === 1 }"><a ng-click="goToPreviousPage()"><span class="fa fa-chevron-left"></span></a></li>
+  <li ng-repeat="photo in gallery" ng-class="{ 'active': photo.index - 1 === pageNumber }"><a ng-click="goToImageNumber(photo.index - 1)">{{ photo.index }}</a></li>
+  <li ng-class="{ 'disabled': photo.index === totalPages }"><a ng-click="goToNextPage()"><span class="fa fa-chevron-right"></span></a></li>
+</ul>
