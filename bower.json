@@ -1,9 +1,9 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
+  "name": "tm3cheun",
+  "description": "Personal website for tm3cheun",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
-  "license": "MIT",
+  "homepage": "",
+  "license": "",
   "private": true,
   "dependencies": {
     "angular": "~1.5.0",
