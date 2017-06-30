@@ -10,7 +10,8 @@ var app = angular.module('myApp', [
 ]);
 
 app.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
+  $locationProvider.hashPrefix('');
+  $locationProvider.html5Mode(true);
 
   $routeProvider
     .when('/', {
@@ -22,7 +23,7 @@ app.config(['$locationProvider', '$routeProvider', function($locationProvider, $
     controller: 'photographyCtrl'
   });
 
-    $routeProvider.otherwise({redirectTo: '/'});
+  $routeProvider.otherwise({redirectTo: '/'});
 }]);
 
 app.run(['$anchorScroll', function($anchorScroll) {

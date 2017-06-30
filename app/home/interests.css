@@ -38,7 +38,7 @@
 }
 
 .interests .photography {
-  background: url(../images/bg2.jpg);
+  background: url(../images/photography1.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,6 +62,7 @@
 .interests span {
   background: #ffffff;
   margin: auto;
+  max-width: 100%;
   padding: 10px;
 }
 
