@@ -1,16 +1,16 @@
 [
 	{
 		"album": "Fleur",
-		"cover": "photography/galleries/flowers/01.png",
+		"cover": "photography/galleries/fleur/01.png",
 		"id": 0,
 		"images": [
 			{
 				"index": 0,
-				"image": "photography/galleries/flowers/01.png"
+				"image": "photography/galleries/fleur/01.png"
 			},
 			{
 				"index": 1,
-				"image": "photography/galleries/flowers/02.png"
+				"image": "photography/galleries/fleur/02.png"
 			}
 		]
 	},
