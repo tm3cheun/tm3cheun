@@ -1,6 +1,6 @@
 .interests {
   width: 100%;
-  background: #ffffff;
+  background: #f3f3f3;
 }
 
 .interests .interest {
@@ -60,7 +60,7 @@
 }
 
 .interests span {
-  background: #ffffff;
+  background: #f3f3f3;
   margin: auto;
   max-width: 100%;
   padding: 10px;

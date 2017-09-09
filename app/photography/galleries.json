@@ -1,0 +1,62 @@
+[
+	{
+		"album": "Fleur",
+		"cover": "photography/galleries/flowers/01.png",
+		"id": 0,
+		"images": [
+			{
+				"index": 0,
+				"image": "photography/galleries/flowers/01.png"
+			},
+			{
+				"index": 1,
+				"image": "photography/galleries/flowers/02.png"
+			}
+		]
+	},
+	{
+		"album": "Miscellaneous",
+		"cover": "photography/galleries/miscellaneous/08.png",
+		"id": 1,
+		"images": [
+			{
+				"index": 0,
+				"image": "photography/galleries/miscellaneous/03.png"
+			},
+			{
+				"index": 1,
+				"image": "photography/galleries/miscellaneous/04.png"
+			},
+			{
+				"index": 2,
+				"image": "photography/galleries/miscellaneous/08.png"
+			}
+		]
+	},
+	{
+		"album": "Summer",
+		"cover": "photography/galleries/summer/07.png",
+		"id": 2,
+		"images": [
+			{
+				"index": 0,
+				"image": "photography/galleries/summer/07.png"
+			}
+		]
+	},
+	{
+		"album": "Winter",
+		"cover": "photography/galleries/winter/05.png",
+		"id": 3,
+		"images": [
+			{
+				"index": 0,
+				"image": "photography/galleries/winter/05.png"
+			},
+			{
+				"index": 1,
+				"image": "photography/galleries/winter/06.png"
+			}
+		]
+	}
+]

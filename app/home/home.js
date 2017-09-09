@@ -2,7 +2,11 @@
 
 angular.module('myApp.home', ['ngRoute'])
 
-.controller('HomeCtrl', ['$scope', function($scope) {
+.controller('HomeCtrl', ['$scope', '$location', function($scope, $location) {
+
+  $scope.goToPhotography = function () {
+    $location.path( "/photography" );
+  }
 
 	$scope.initAnimateScroll = function () {
 
@@ -23,9 +27,7 @@ angular.module('myApp.home', ['ngRoute'])
           
           return false;
 			  }
-
 			});
-
     });
   };
 

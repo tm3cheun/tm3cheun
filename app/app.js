@@ -6,24 +6,34 @@ var app = angular.module('myApp', [
   'ngRoute',
   'myApp.home',
   'myApp.photography',
+  'myApp.gallery',
   'myApp.version'
 ]);
 
 app.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('');
-  $locationProvider.html5Mode(true);
 
   $routeProvider
     .when('/', {
-        templateUrl : 'home/home.html',
-        controller : 'HomeCtrl'
+      templateUrl : 'home/home.html',
+      controller : 'HomeCtrl'
     })
     .when('/photography', {
-    templateUrl: 'photography/photography.html',
-    controller: 'photographyCtrl'
-  });
+      templateUrl: 'photography/photography.html',
+      controller: 'photographyCtrl'
+    })
+    .when('/photography/:galleryId', {
+      templateUrl: 'photography/gallery.html',
+      controller: 'galleryCtrl'
+    })
+    .otherwise({
+      redirectTo: '/'
+    });
 
-  $routeProvider.otherwise({redirectTo: '/'});
+  $locationProvider.html5Mode({
+    enabled: true,
+    requireBase: false
+  });
 }]);
 
 app.run(['$anchorScroll', function($anchorScroll) {
