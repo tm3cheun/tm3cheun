@@ -7,6 +7,7 @@ var app = angular.module('myApp', [
   'myApp.home',
   'myApp.photography',
   'myApp.gallery',
+  'myApp.projects',
   'myApp.version'
 ]);
 
@@ -25,6 +26,10 @@ app.config(['$locationProvider', '$routeProvider', function($locationProvider, $
     .when('/photography/:galleryId', {
       templateUrl: 'photography/gallery.html',
       controller: 'galleryCtrl'
+    })
+    .when('/projects', {
+      templateUrl: 'projects/projects.html',
+      controller: 'projectsCtrl'
     })
     .otherwise({
       redirectTo: '/'

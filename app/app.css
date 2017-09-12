@@ -1,16 +1,33 @@
 @import url("home/home.css");
 @import url("photography/photography.css");
 @import url("photography/gallery.css");
+@import url("projects/projects.css");
+
+@font-face {
+  font-family: Montserrat;
+  src: url("fonts/Montserrat.otf") format("opentype");
+}
+
+@font-face {
+  font-family: BebasNeuue;
+  src: url("fonts/BebasNeuue.otf") format("opentype");
+}
 
 nav {
-  font-family: 'MontserratRegular'; 
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal; 
-  font-style: normal;  
+  font-style: normal;
 }
 
 .nav-bar {
 	height: 50px;
 	width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav {
+    font-size: 0.9em;
+  }
 }
 
 .menu {

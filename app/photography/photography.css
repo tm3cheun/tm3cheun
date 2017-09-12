@@ -1,3 +1,7 @@
+#galleries .heading {
+  margin: 10px;
+}
+
 .galleries {
   max-width: 750px;
   margin: auto;
@@ -9,10 +13,13 @@
   display: inline-block;
   padding: 10px;
   text-align: center;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .gallery:hover {
-  background-color: #f3f3f3;
+  opacity: 0.7;
 }
 
 .gallery .titlePicture {

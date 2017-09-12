@@ -1,5 +1,5 @@
-<div id="bg" ng-repeat="photo in images" ng-show='photo.index === pageNumber'>
-  <img ng-src="{{photo.image}}" alt="">
+<div id="bg" ng-repeat="photo in images" ng-class="{'active': photo.index === pageNumber}" ng-style="{'background-image':'url({{photo.image}})'}">
+>
 </div>
 
 <div class="gallery-title heading">{{gallery.album}}</div>

@@ -1,0 +1,22 @@
+[
+	{
+		"name": "OmniNav (Fourth Year Design Project)",
+		"description": "Designed and built a navigation belt for the visually impaired using an Arduino. Developed an Android app in Java using Google Map’s API to provide directions to the belt by a touch screen and voice command interface.",
+		"image": "/projects/pictures/01.png"
+	},
+	{
+		"name": "Photography Blog",
+		"description": "Designed and developed a web application for photography blogs using AngularJS",
+		"image": "/projects/pictures/01.png"
+	},
+	{
+		"name": "Emaily (Hack Princeton)",
+		"description": "Built a Facebook chatbot using Microsoft’s AI Luis to remind a user of the emails they have read but not responded to in the last 24 hours and offers choices to ignore or set reminders. <br> Technologies used: Node.js, Heroku, MongoDB, HTML5, CSS3, JavaScript, Microsoft’s AI Luis",
+		"image": "/projects/pictures/01.png"
+	},
+	{
+		"name": "Real-time Kernel",
+		"description": "Developed a small real-time kernel for ARM Cortex-M3 Processor. Supports task creation, multithreading, I/O (GPIO and peripherals), and system console on KEIL MCB1700 evaluation board. Manages memory using half-fit allocation algorithm with fixed memory blocks.",
+		"image": "/projects/pictures/01.png"
+	}
+]

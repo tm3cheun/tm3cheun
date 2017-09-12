@@ -5,7 +5,7 @@ angular.module('myApp.gallery', ['ngRoute'])
 .controller('galleryCtrl', ['$scope', '$routeParams', '$http', '$location', function($scope, $routeParams, $http, $location) {
 	$scope.gallery = {};
 	$scope.galleries = []
-	$scope.pageNumber = 0;
+	$scope.pageNumber = 1;
 	$scope.totalPages = 0;
 	$scope.images = [];
 
@@ -19,11 +19,11 @@ angular.module('myApp.gallery', ['ngRoute'])
 	}
 
 	$scope.goToNextPage = function() {
-		if ( $scope.pageNumber < $scope.totalPages - 1 ) $scope.pageNumber++;
+		if ( $scope.pageNumber < $scope.totalPages ) $scope.pageNumber++;
 	}
 
 	$scope.goToPreviousPage = function() {
-  	if ( $scope.pageNumber > 0 ) $scope.pageNumber--;
+  	if ( $scope.pageNumber > 1 ) $scope.pageNumber--;
 	}
 
 	$scope.goToImageNumber = function ( newPage ) {

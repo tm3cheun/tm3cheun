@@ -1,8 +1,10 @@
-<div class="heading">Photography</div>
+<div id="galleries">
+	<div class="heading">Photography</div>
 
-<div class="galleries">
-	<div class="gallery" ng-repeat="gallery in galleries" ng-click="goToGallery(gallery.id)">
-		<div class="titlePicture" ng-style="{'background-image':'url({{gallery.cover}})'}" "></div>
-		<span class="text">{{gallery.album}}</span>
+	<div class="galleries">
+		<div class="gallery" ng-repeat="gallery in galleries" ng-click="goToGallery(gallery.id)">
+			<div class="titlePicture" ng-style="{'background-image':'url({{gallery.cover}})'}" "></div>
+			<span class="text">{{gallery.album}}</span>
+		</div>
 	</div>
 </div>

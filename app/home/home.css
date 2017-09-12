@@ -20,11 +20,11 @@ a:hover {
 }
 
 .heading {
-  font-family: 'BebasNeueBold'; 
-  font-weight: normal; 
-  font-style: normal; 
+  font-family: 'BebasNeuue', sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: 5em;
-  letter-spacing: 4px;	
+  letter-spacing: 4px;
   text-align: center;
 }
 
@@ -83,7 +83,7 @@ a:hover {
 }
 
 table {
-  font-family: 'MontserratRegular'; 
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal; 
   font-style: normal; 
   font-size: 1em;
@@ -114,11 +114,13 @@ table tr td:first-child {
 }
 
 .text {
-  font-family: 'MontserratRegular'; 
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 1px;
+}
+
+.main .text, .skills .text, .experience .text, .contact .text {
   margin: auto;
   margin-top: 25px;
   max-width: 75%;

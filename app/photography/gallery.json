@@ -1,8 +1,23 @@
 [
 	{
-		"album": "Etc.",
-		"cover": "photography/galleries/miscellaneous/08.png",
+		"album": "Fleur",
+		"cover": "photography/galleries/fleur/01.png",
 		"id": 0,
+		"images": [
+			{
+				"index": 1,
+				"image": "photography/galleries/fleur/01.png"
+			},
+			{
+				"index": 2,
+				"image": "photography/galleries/fleur/02.png"
+			}
+		]
+	},
+	{
+		"album": "Miscellaneous",
+		"cover": "photography/galleries/miscellaneous/08.png",
+		"id": 1,
 		"images": [
 			{
 				"index": 1,
@@ -19,35 +34,9 @@
 		]
 	},
 	{
-		"album": "Fall",
-		"cover": "photography/galleries/fall/09.jpg",
-		"id": 1,
-		"images": [
-			{
-				"index": 1,
-				"image": "photography/galleries/fall/09.jpg"
-			}
-		]
-	},
-	{
-		"album": "Spring",
-		"cover": "photography/galleries/spring/01.png",
-		"id": 2,
-		"images": [
-			{
-				"index": 1,
-				"image": "photography/galleries/spring/01.png"
-			},
-			{
-				"index": 2,
-				"image": "photography/galleries/spring/02.png"
-			}
-		]
-	},
-	{
 		"album": "Summer",
 		"cover": "photography/galleries/summer/07.png",
-		"id": 3,
+		"id": 2,
 		"images": [
 			{
 				"index": 1,
@@ -62,7 +51,7 @@
 	{
 		"album": "Winter",
 		"cover": "photography/galleries/winter/05.png",
-		"id": 4,
+		"id": 3,
 		"images": [
 			{
 				"index": 1,
