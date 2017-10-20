@@ -1,0 +1,47 @@
+#project {
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: contain;
+}
+
+@media (max-width: 768px) {
+	#project .main {
+	    background: rgba(255, 255, 255, 0.95);
+	}
+}
+
+#project .image {
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+}
+
+#project .section {
+	padding: 50px;
+}
+
+#project .subtitle {
+	color: #9d9d9d;
+	text-align: center;
+}
+
+#project .description {
+	padding: 20px 0;
+}
+
+#project .text {
+	margin: 0 auto;
+}
+
+#project .links {
+    text-align: center;
+}
+
+#project .links .link {
+	display: inline-block;
+	margin: 10px;
+}

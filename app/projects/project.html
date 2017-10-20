@@ -1,0 +1,13 @@
+<div id="project" class="sector" ng-style="{'background-image':'url('+project.image+')'}">
+	<div class="section image hidden-xs" ng-style="{'background-image':'url('+project.image+')'}"></div>
+  	<div class="section main">
+		<div class="heading">{{project.name}}</div>
+		<div class="subtitle text">{{project.subtitle}}</div>
+		<div class="description text">{{project.description}}</div>
+		<div class="links text">
+			<div class="link" ng-repeat="link in project.links">
+				<a class="btn btn-default" href="{{link.link}}">{{link.type}}</a>
+			</div>
+		</div>
+    </div>
+</div>

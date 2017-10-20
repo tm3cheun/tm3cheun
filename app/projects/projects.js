@@ -10,6 +10,10 @@ angular.module('myApp.projects', ['ngRoute'])
 			$scope.projects = data.data;
 		});
 	}
+
+	$scope.goToProject = function(id) {
+		$location.path( "/projects/" + id );
+	}
 	
 	$scope.init();
 }]);

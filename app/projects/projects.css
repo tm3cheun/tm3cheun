@@ -7,18 +7,20 @@
 }
 
 #projects .projects {
-  max-width: 700px;
+  max-width: 1000px;
   margin: auto;
   text-align: center;
 }
 
 #projects .project {
   display: inline-block;
-  width: 325px;
-  min-height: 485px;
+  width: 300px;
+  min-height: 300px;
   overflow: hidden;
   margin: 10px;
-  opacity: 0.5;
+  border: 1px solid #ebebeb;
+  text-align: left;
+  opacity: 0.6;
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
@@ -26,22 +28,25 @@
 
 #projects .project:hover,
 #projects .project:focus {
-  opacity: 1;
+  opacity: 1; 
 }
 
-#projects .picture {
+#projects .image {
   background-size: cover;
   background-position: center;
   background-color: #f3f3f3;
-	height: 200px;
-	width: 325px;
+	height: 220px;
 }
 
 #projects .name {
   font-size: 1.5em;
 }
 
-#projects .description {
-  text-align: left;
+#projects .subtitle {
+  color: #9d9d9d;
+  font-size: 0.9em;
+}
+
+#projects .text {
   margin: 10px;
 }

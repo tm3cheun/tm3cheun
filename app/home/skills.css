@@ -17,3 +17,8 @@
 	min-width: 35%;
   text-transform: uppercase;
 }
+
+.skills .links {
+	margin: 10px;
+	text-align: center;
+}

@@ -2,52 +2,10 @@
 	<div class="heading">Projects</div>
 
 	<div class="projects">
-		<div class="project">
-			<div class="picture" ng-style="{'background-image':'url(/projects/pictures/omninav.png)'}"></div>
-			<div class="name text">OmniNav</div>
-			<div class="description text">
-				Designed and built a navigation belt for the visually impaired using an Arduino for fourth year design project. Developed an Android app in Java using Google Map’s API to provide directions to the belt by a touch screen and voice command interface.<br><br>
-			</div>
-			<div class="links text">
-				<a class="btn btn-default" href="http://omninavtech.com">Website</a>
-				<a class="btn btn-default" href="https://github.com/adijunnarkar/GBelt">Github</a>
-			</div>
+		<div class="project" ng-repeat="project in projects" ng-click="goToProject(project.id)">
+			<div class="image" ng-style="{'background-image':'url({{project.image}})'}"></div>
+			<div class="name text">{{project.name}}</div>
+			<div class="subtitle text">{{project.subtitle}}</div>
 		</div>
-
-		<div class="project">
-			<div class="picture" ng-style="{'background-image':'url(/projects/pictures/photography-blog.png)'}"></div>
-			<div class="name text">Photography Blog</div>
-			<div class="description text">
-				Designed and developed a web application for photography blogs using AngularJS.<br><br>
-			</div>
-			<div class="links text">
-				<a class="btn btn-default" href="https://photography-blog.herokuapp.com/">Demo</a>
-				<a class="btn btn-default" href="https://github.com/tm3cheun/photography-blog">Github</a>
-			</div>
-		</div>
-
-		<div class="project">
-			<div class="picture" ng-style="{'background-image':'url(/projects/pictures/emaily.jpg)'}"></div>
-			<div class="name text">Emaily (Hack Princeton)</div>
-			<div class="description text">
-				Built a Facebook chatbot using Microsoft’s AI Luis to remind a user of the emails they have read but not responded to in the last 24 hours and offers choices to ignore or set reminders. <br>
-				Technologies used: Node.js, Heroku, MongoDB, HTML5, CSS3, JavaScript, Microsoft’s AI Luis<br><br>
-			</div>
-			<div class="links text">
-				<a class="btn btn-default" href="https://devpost.com/software/emaily">DevPost</a>
-				<a class="btn btn-default" href="https://github.com/davidshi1997/Emaily">Github</a>
-			</div>
-		</div>
-
-		<div class="project">
-			<div class="picture"></div>
-			<div class="name text">Real-time Kernel</div>
-			<div class="description text">
-				Developed a small real-time kernel for ARM Cortex-M3 Processor.
-				Supports task creation, multithreading, I/O (GPIO and peripherals), and system console on KEIL MCB1700 evaluation board.
-				Manages memory using half-fit allocation algorithm with fixed memory blocks.
-			</div>
-		</div>
-
 	</div>
 </div>
