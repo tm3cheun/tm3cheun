@@ -4,7 +4,8 @@
 }
 
 .interests .interest {
-  display: grid;
+  display: flex;
+  justify-content: center;
   min-height: 300px;
 }
 
@@ -62,7 +63,6 @@
 .interests span {
   background: #f3f3f3;
   margin: auto;
-  max-width: 100%;
   padding: 10px;
 }
 
