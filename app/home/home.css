@@ -4,14 +4,6 @@
 @import url("interests.css");
 @import url("skills.css");
 
-a {
-  color: rgba(204, 204, 204, 1);
-}
-
-a:hover {
-  color: rgba(204, 204, 204, 0.6);
-}
-
 .content {
   background-color: #ffffff;
   color: #000000;
@@ -129,4 +121,8 @@ table tr td:first-child {
 .vertical-center {
 	position: relative;
   top: 50%;
+}
+
+.clickable {
+  cursor: pointer;
 }

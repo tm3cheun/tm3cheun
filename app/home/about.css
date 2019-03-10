@@ -1,19 +1,41 @@
 .about {
-  background: url(../images/convocation.jpg) no-repeat center center; 
+  background: url(../images/hero.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .about .bg {
-  background: url(../images/convocation.jpg) no-repeat center center;
+  background: url(../images/hero.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.about .text {
-  text-align: center;
+.about .heading {
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+  padding: 40px;
+}
+
+@media (max-width:1060px) {
+  .about .heading {
+    font-size: 4em;
+    padding: 20px;
+  }
+}
+
+@media (max-width:900px) {
+  .about .heading {
+    font-size: 3em;
+    padding: 10px;
+  }
 }

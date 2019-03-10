@@ -11,3 +11,11 @@
 	margin: 50px auto;
   text-align: center;
 }
+
+.contact .social-media {
+  color: rgba(204, 204, 204, 1);
+}
+
+.contact .social-media:hover {
+  color: rgba(204, 204, 204, 0.6);
+}

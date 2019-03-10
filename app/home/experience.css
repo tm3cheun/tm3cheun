@@ -51,6 +51,14 @@
   background: #ffffff;
 }
 
+.experience a {
+  color: #000000;
+}
+
+.experience a:hover {
+  color: rgba(101, 101, 101, 1);
+}
+
 .experience .position {
   font-size: 16px;
   font-weight: 600;
@@ -67,6 +75,10 @@
   }
 }
 
-ul {
+.experience ul {
   list-style-type: none;
+}
+
+.experience li {
+  font-weight: 500;
 }
