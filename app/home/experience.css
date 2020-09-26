@@ -7,7 +7,7 @@
   z-index: 2;
   min-height: 50px;
   margin-left: 56px;
-  padding: 0.25em 1em 4em;
+  padding: 0.5em 1em 2.5em;
 }
 
 .cd-service-end {
@@ -59,10 +59,22 @@
   color: rgba(101, 101, 101, 1);
 }
 
-.experience .position {
+.experience .job-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.experience .job-title .position {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 3px;
+  padding-right: 0.5em;
+}
+
+.experience .job-title .date {
+  font-size: 14px;
+  color: #999;
 }
 
 .experience .bullets {
@@ -81,4 +93,8 @@
 
 .experience li {
   font-weight: 500;
+}
+
+.experience .bullets li {
+  padding-top: 1em;
 }

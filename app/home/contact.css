@@ -14,6 +14,7 @@
 
 .contact .social-media {
   color: rgba(204, 204, 204, 1);
+  margin: 0 0.25em;
 }
 
 .contact .social-media:hover {
