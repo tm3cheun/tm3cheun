@@ -1,8 +1,8 @@
-@import url("home/home.css");
-@import url("photography/photography.css");
-@import url("photography/gallery.css");
-@import url("projects/project.css");
-@import url("projects/projects.css");
+@import url("home/home.css?v0.1");
+@import url("photography/photography.css?v0.1");
+@import url("photography/gallery.css?v0.1");
+@import url("projects/project.css?v0.1");
+@import url("projects/projects.css?v0.1");
 
 @font-face {
   font-family: Montserrat;
