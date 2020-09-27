@@ -15,14 +15,14 @@
   font-family: 'BebasNeuue', sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 5em;
+  font-size: 60px;
   letter-spacing: 4px;
   text-align: center;
 }
 
 @media (max-width:768px) {
   .heading {
-    font-size: 3em;
+    font-size: 36px;
   }
 }
 
@@ -74,7 +74,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal; 
   font-style: normal; 
-  font-size: 1em;
+  font-size: 14px;
   letter-spacing: 1px;
   margin: 0 10px;
 }
@@ -83,27 +83,9 @@ table tr td {
   padding-bottom: 20px;
 }
 
-table tr td:first-child, .interest-title {
-  color: #000000;
-  letter-spacing: 4px;
-  font-size: 1.25em;
-  font-weight: bolder;
-}
-
-@media (max-width:768px) {
-  table tr td:first-child, .interest-title {
-    font-size: 1em;
-  }
-}
-
-table tr td:first-child {
-  min-width: 35%;
-  text-transform: uppercase;
-}
-
 .text {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px;
 }
