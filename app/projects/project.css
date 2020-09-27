@@ -1,47 +1,71 @@
-#project {
-	background-repeat: no-repeat;
-    background-position: center;
-	background-size: contain;
+.project .project-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #f3f3f3;
 }
 
-@media (max-width: 768px) {
-	#project .main {
-	    background: rgba(255, 255, 255, 0.95);
-	}
+.project-wrapper {
+	padding: 15px;
+	max-width: 900px;
 }
 
-#project .image {
-	background-color: #ffffff;
+.project .image {
+	background: #ffffff;
 	background-repeat: no-repeat;
-    background-position: center;
+	background-position: center;
 	background-size: contain;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
+	margin: 50px;
 }
 
-#project .section {
+@media (min-width: 1024px) {
+    .project .image {
+        background-size: 954px;
+    }
+}
+
+.project .project-details-section {
+	min-height: calc(100vh - 50px);
 	padding: 50px;
 }
 
-#project .subtitle {
+.project .subtitle {
 	color: #9d9d9d;
 	text-align: center;
 }
 
-#project .description {
+.project .description {
 	padding: 20px 0;
 }
 
-#project .text {
+.project .text {
 	margin: 0 auto;
 }
 
-#project .links {
-    text-align: center;
+.project .links {
+	text-align: center;
 }
 
-#project .links .link {
+.project .links .link {
 	display: inline-block;
 	margin: 10px;
+}
+
+.project .scroll-wrapper {
+	text-align: center;
+}
+
+.project .project-chevron-down {
+	color: #000000;
+	text-decoration: none;
+	font-size: 48px;
+	margin: 10px;
+}
+
+.project .project-chevron-down:hover {
+	color: #999;
 }

@@ -1,24 +1,6 @@
 [
 	{
 		"id": 0,
-		"name": "OmniNav",
-		"subtitle": "Fourth year design project",
-		"description": "Designed and built a navigation belt for the visually impaired using an Arduino. Developed an Android app in Java using Google Map’s API to provide directions to the belt by a touch screen and voice command interface.",
-		"image": "/projects/pictures/omninav.png",
-		"links":
-			[
-				{
-					"type": "Website",
-					"link": "http://omninavtech.com"
-				},
-				{
-					"type": "GitHub",
-					"link": "https://github.com/adijunnarkar/GBelt"
-				}
-			]
-	},
-	{
-		"id": 1,
 		"name": "Photography Blog",
 		"subtitle": "Gallery web application",
 		"description": "Designed and developed a web application for photography blogs using AngularJS",
@@ -37,7 +19,7 @@
 		
 	},
 	{
-		"id": 2,
+		"id": 1,
 		"name": "Emaily",
 		"subtitle": "Hack Princeton",
 		"description": "Built a Facebook chatbot using Microsoft’s AI Luis to remind a user of the emails they have read but not responded to in the last 24 hours and offers choices to ignore or set reminders. Technologies used: Node.js, Heroku, MongoDB, HTML5, CSS3, JavaScript, Microsoft’s AI Luis",
@@ -55,19 +37,39 @@
 			]
 	},
 	{
-		"id": 3,
+		"id": 2,
 		"name": "Flatteru",
 		"subtitle": "Facebook Chatbot",
 		"description": "Built a Facebook chatbot to flatter-u. Message Flatteru to get compliments and feel good about yourself! Developed with Express, MongoDB, and JavaScript.",
 		"image": "/projects/pictures/Flatteru.png",
-		"links": []
+		"links":
+			[
+				{
+					"type": "GitHub",
+					"link": "https://github.com/tm3cheun/flatteru"
+				}
+			]
+	},
+	{
+		"id": 3,
+		"name": "OmniNav",
+		"subtitle": "Fourth year design project",
+		"description": "Designed and built a navigation belt for the visually impaired using an Arduino. Developed an Android app in Java using Google Map’s API to provide directions to the belt by a touch screen and voice command interface.",
+		"image": "/projects/pictures/omninav.png",
+		"links":
+			[
+				{
+					"type": "GitHub",
+					"link": "https://github.com/adijunnarkar/GBelt"
+				}
+			]
 	},
 	{
 		"id": 4,
 		"name": "Real-time Kernel",
 		"subtitle": "",
 		"description": "Developed a small real-time kernel for ARM Cortex-M3 Processor. Supports task creation, multithreading, I/O (GPIO and peripherals), and system console on KEIL MCB1700 evaluation board. Manages memory using half-fit allocation algorithm with fixed memory blocks.",
-		"image": "",
+		"image": null,
 		"links": []
 	}
 ]

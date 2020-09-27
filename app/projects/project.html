@@ -1,13 +1,19 @@
-<div id="project" class="sector" ng-style="{'background-image':'url('+project.image+')'}">
-	<div class="section image hidden-xs" ng-style="{'background-image':'url('+project.image+')'}"></div>
-  	<div class="section main">
-		<div class="heading">{{project.name}}</div>
-		<div class="subtitle text">{{project.subtitle}}</div>
-		<div class="description text">{{project.description}}</div>
-		<div class="links text">
-			<div class="link" ng-repeat="link in project.links">
-				<a class="btn btn-default" href="{{link.link}}">{{link.type}}</a>
+<div class="project">
+	<div class="project-details-section project-content">
+		<div class="project-wrapper">
+			<div class="heading">{{project.name}}</div>
+			<div class="subtitle text">{{project.subtitle}}</div>
+			<div class="description text">{{project.description}}</div>
+			<div class="links text">
+				<div class="link" ng-repeat="link in project.links">
+					<a class="btn btn-default" href="{{link.link}}">{{link.type}}</a>
+				</div>
 			</div>
 		</div>
-    </div>
+		<div class="scroll-wrapper" ng-show="project.image">
+			<a class="scroll project-chevron-down fa fa-chevron-down" href="#project-image" />
+		</div>
+	</div>
+
+	<div id="project-image" class="project-details-section image" ng-style="{'background-image':'url('+project.image+')'}" ng-show="project.image"/>
 </div>
