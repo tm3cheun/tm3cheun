@@ -1,5 +1,6 @@
 .cd-container {
   text-align: left;
+  padding-left: 0;
 }
 
 .cd-service, .cd-service-end {
@@ -45,6 +46,24 @@
   height: 50px;
   background-image: url("../images/pattern-end.svg");
   background-repeat: no-repeat;
+}
+
+@media (max-width:768px) {
+  .cd-service, .cd-service-end {
+    margin: 0;
+  }
+
+  .cd-service::before {
+    display: none;
+  }
+
+  .cd-service::after {
+    display: none;
+  }
+
+  .cd-service-end::before {
+    display: none;
+  }
 }
 
 .experience {

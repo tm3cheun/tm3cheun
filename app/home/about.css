@@ -20,22 +20,15 @@
 }
 
 .about .heading {
-  display: table-cell;
+  font-size: 60px;
   text-align: right;
-  vertical-align: middle;
   padding: 40px;
+  width: 100%;
 }
 
-@media (max-width:1060px) {
+@media (max-width:1024px) {
   .about .heading {
-    font-size: 4em;
+    font-size: 36px;
     padding: 20px;
-  }
-}
-
-@media (max-width:900px) {
-  .about .heading {
-    font-size: 3em;
-    padding: 10px;
   }
 }
